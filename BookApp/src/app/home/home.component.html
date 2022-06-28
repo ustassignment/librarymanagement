@@ -1,0 +1,18 @@
+<app-search></app-search>
+<ul>
+    <li *ngFor="let book of books">
+        <a>
+        <img src="{{book.imageUrl}}" alt="book images">
+        <div class="content">
+            <div class="name">
+                    {{book.name}}
+                    
+            </div>
+            <div class="name">
+                
+                {{book.author}}
+        </div>
+        </div>
+    </a>
+    </li>
+</ul>
